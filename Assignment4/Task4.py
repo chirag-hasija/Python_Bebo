@@ -1,0 +1,5 @@
+num1 = (1,2,3)
+lis = list(num1)
+lis.append(4)
+num1 = tuple(lis)
+print(num1)
